@@ -1,0 +1,21 @@
+{
+	"Name": "Smart CAR",
+	"Description": "Adds an auto tracking CAR",
+	"LoadPriority": 2,
+	"RequiredOnClient": true,
+	"Version": "9.9.9",
+	
+	"Scripts": [
+		{
+			"Path": "vm_weapon_smart_car.nut",
+			"RunOn": "SP || MP",
+			"ClientCallback": {
+				"After": "Smart_carPrecache"
+			},
+			
+			"ServerCallback": {
+				"After": "Smart_carPrecache"
+			}
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Smart CAR",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/TheVenusian/Smart-CAR-Northstar-mod-Thunderstore-",
+    "description": "Adds a CAR, but with tracking similar to the smart pistol",
+    "dependencies": [
+        ""
+    ]
+}
